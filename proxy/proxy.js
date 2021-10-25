@@ -71,6 +71,7 @@ const rule = {
                     break
                 }
             }
+            console.log(body_json.appmsgstat)
             print(nick_name+':'+wxuin)
             if(wxuin != undefined){
                 sendToRedis(nick_name+'.nick_name',wxuin)

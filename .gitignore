@@ -2,6 +2,7 @@ proxy/node_modules/
 proxy/package-lock.json
 scratch/
 .idea/
+.vscode/
 
 *.pyc
 *.bat
@@ -9,3 +10,4 @@ cache_*.js
 screen_*.png
 
 dump.rdb
+node_modules

@@ -1,0 +1,27 @@
+{
+  "name": "weixin_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "nodemon proxy/proxy.js",
+    "start:py": "nodemon --watch project --exec python ./project/main.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7kms/weixin_crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7kms/weixin_crawler/issues"
+  },
+  "homepage": "https://github.com/7kms/weixin_crawler#readme",
+  "dependencies": {
+    "anyproxy": "^4.1.0",
+    "moment": "^2.24.0",
+    "nodemon": "^2.0.2",
+    "redis": "^2.8.0"
+  }
+}
